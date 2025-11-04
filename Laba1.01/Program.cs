@@ -6,7 +6,7 @@ using System.Runtime.CompilerServices;
 using static Laba1._01.AbstractFactory;
 using static Laba1._01.Builder;
 using static Laba1._01.MethodFactory;
-using static Laba1._01.CreateCar;
+using static Laba1._01.Client;
 
 class Program
 {
@@ -66,17 +66,8 @@ class Program
 
 
         //// проверка Car
-        var audi = new Audi();
-        var volvo = new Volvo();
-        var abrams = new Abrams();
-        var tiger = new Tiger();
-        var man = new Man();
-        var honda = new Honda();
-        var tesla = new Tesla();
-        var scania = new Scania();
-        var merkava = new Merkava();
-        CreateCar.Scania scania1 = new Scania();
-
-        Console.WriteLine(scania1);
+        var client = new Client();
+        client.Do("Vehicle", "Audi");
+        Console.WriteLine(client);
     }
 }

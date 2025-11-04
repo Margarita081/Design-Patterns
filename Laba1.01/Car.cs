@@ -13,231 +13,204 @@ using System.Xml.Linq;
 //  obj - tank, prop - car + Projectile caliber, shotsPeMinute, CrewSize
 namespace Laba1._01;
 
-public static class CreateCar
+public class Client
 {
-    public abstract class Car
+
+    public void Do(string type, string model)
     {
-        public string Weight { get; set; }
-        public string Length { get; set; }
-        public string MaxSpeed { get; set; }
+        switch (type)
+        {
+            case "Vehicle":
+                var vehicleFactory = new VehicleFactory();
+                Car car1 = model switch
+                {
+                    "Audi" => vehicleFactory.CreateAudi(),
+                    "Honda" => vehicleFactory.CreateHonda(),
+                    "Tesla" => vehicleFactory.CreateTesla(),
+                    _ => throw new Exception("not find")
+                };
+                Console.WriteLine(car1);
+                break;
 
-        public abstract object CloneCar();
-    }
+            case "Cargo":
+                var cargoFactory = new CargoFactory();
+                Car car2 = model switch
+                {
+                    "Volvo" => cargoFactory.CreateVolvo(),
+                    "Man" => cargoFactory.CreateMan(),
+                    "Scania" => cargoFactory.CreateScania(),
+                    _ => throw new Exception("not find")
+                };
+                Console.WriteLine(car2);
+                break;
 
-    public enum TypeVehicle
-    {
-        Hatchback,
-        Sedan,
-        Coupe
-    }
-    public class Vehichle : Car
-    {
-        public string WheelDrive { get; set; }
-        public string Color { get; set; }
-
-        public TypeVehicle TypeVehicle { get; set; }
-
-        public override object CloneCar()
-        {
-            return new Vehichle
-            {
-                WheelDrive = this.WheelDrive,
-                Color = this.Color,
-                TypeVehicle = this.TypeVehicle,
-                Weight = this.Weight,
-                Length = this.Length,
-                MaxSpeed = this.MaxSpeed,
-            };
-        }
-
-    }
-
-    public class Cargo : Car
-    {
-        public string Tonnage { get; set; }
-        public string TankVolume { get; set; }
-        public string AxlesAmount { get; set; }
-        public override object CloneCar()
-        {
-            return new Cargo
-            {
-                Tonnage = this.Tonnage,
-                TankVolume = this.TankVolume,
-                AxlesAmount = this.AxlesAmount,
-                Weight = this.Weight,
-                Length = this.Length,
-                MaxSpeed = this.MaxSpeed,
-            };
-        }
-    }
-
-    public abstract class Tank : Car
-    {
-        public string ProiectileCaliber { get; set; }
-        public string ShotsPerMinute { get; set; }
-        public string CrewSize { get; set; }
-
-    }
-
-
-
-    public class Audi : Vehichle
-    {
-        public Audi()
-        {
-            WheelDrive = "";
-            Color = "";
-            TypeVehicle = TypeVehicle.Sedan;
-            Weight = "";
-            Length = "";
-            MaxSpeed = "";
-        }
-        public override object CloneCar()
-        {
-            var clone = (Audi)base.CloneCar();
-            return clone;
-        }
-    }
-
-    public class Honda : Vehichle
-    {
-        public Honda()
-        {
-            WheelDrive = "";
-            Color = "";
-            TypeVehicle = TypeVehicle.Hatchback;
-            Weight = "";
-            Length = "";
-            MaxSpeed = "";
-        }
-        public override object CloneCar()
-        {
-            var clone = (Honda)base.CloneCar();
-            return clone;
-        }
-    }
-
-    public class Tesla : Vehichle
-    {
-        public Tesla()
-        {
-            WheelDrive = "";
-            Color = "";
-            TypeVehicle = TypeVehicle.Coupe;
-            Weight = "";
-            Length = "";
-            MaxSpeed = "";
-
-        }
-        public override object CloneCar()
-        {
-            var clone = (Tesla)base.CloneCar();
-            return clone;
-        }
-    }
-
-    public class Volvo : Cargo
-    {
-        public Volvo()
-        {
-            Tonnage = "";
-            TankVolume = "";
-            AxlesAmount = "";
-            Weight = "";
-            MaxSpeed = "";
-        }
-        public override object CloneCar()
-        {
-            var clone = (Volvo)base.CloneCar();
-            return clone;
-        }
-    }
-
-    public class Man : Cargo
-    {
-        public Man()
-        {
-            Tonnage = "";
-            TankVolume = "";
-            AxlesAmount = "";
-            Weight = "";
-            MaxSpeed = "";
-        }
-        public override object CloneCar()
-        {
-            var clone = (Man)base.CloneCar();
-            return clone;
-        }
-    }
-
-    public class Scania : Cargo
-    {
-        public Scania()
-        {
-            Tonnage = "";
-            TankVolume = "";
-            AxlesAmount = "";
-            Weight = "";
-            MaxSpeed = "";
-        }
-        public override object CloneCar()
-        {
-            var clone = (Scania)base.CloneCar();
-            return clone;
-        }
-    }
-
-    public class Abrams : Tank
-    {
-        public Abrams()
-        {
-            ProiectileCaliber = "";
-            ShotsPerMinute = "";
-            CrewSize = "";
-            Weight = "";
-            Length = "";
-            MaxSpeed = "";
-        }
-        public override object CloneCar()
-        {
-            var clone = (Abrams)CloneCar();
-            return clone;
-        }
-    }
-    public class Merkava : Tank
-    {
-        public Merkava()
-        {
-            ProiectileCaliber = "11";
-            ShotsPerMinute = "23";
-            CrewSize = "344";
-            Weight = "422";
-            Length = "31";
-            MaxSpeed = "65";
-        }
-        public override object CloneCar()
-        {
-            var clone = (Merkava)CloneCar();
-            return clone;
-        }
-    }
-
-    public class Tiger : Tank
-    {
-        public Tiger()
-        {
-            ProiectileCaliber = "";
-            ShotsPerMinute = "";
-            CrewSize = "";
-            Weight = "";
-            Length = "";
-            MaxSpeed = "";
-        }
-        public override object CloneCar()
-        {
-            var clone = (Tiger)CloneCar();
-            return clone;
+            case "Tank":
+                var tankFactory = new TankFactory();
+                Car car3 = model switch
+                {
+                    "Abrams" => tankFactory.CreateAbrams(),
+                    "Merkava" => tankFactory.CreateMerkava(),
+                    "Tiger" => tankFactory.CreateTiger(),
+                    _ => throw new Exception("not find")
+                };
+                Console.WriteLine(car3);
+                break;
+            default:
+                throw new Exception("Don't find nothing");
         }
     }
 }
+
+public abstract class Car
+{
+    public string Weight { get; set; }
+    public string Length { get; set; }
+    public string MaxSpeed { get; set; }
+
+    public string Name { get; set; }
+    public override string ToString()
+    {
+        return Name;
+    }
+}
+
+public enum TypeVehicle
+{
+    Hatchback,
+    Sedan,
+    Coupe
+}
+public class Vehicle : Car
+{
+    public string WheelDrive { get; set; }
+    public string Color { get; set; }
+
+    public TypeVehicle TypeVehicle { get; set; }
+}
+
+public class Tank : Car
+{
+    public string ProiectileCaliber { get; set; }
+    public string ShotsPerMinute { get; set; }
+    public string CrewSize { get; set; }
+}
+
+public class Cargo : Car
+{
+    public string Tonnage { get; set; }
+    public string TankVolume { get; set; }
+    public string AxlesAmount { get; set; }
+}
+
+
+public class Audi : Vehicle
+{
+    public Audi()
+    {
+        Name = "Audi";
+    }
+}
+public class Honda : Vehicle
+{
+    public Honda()
+    {
+        Name = "Honda";
+    }
+}
+public class Tesla : Vehicle
+{
+    public Tesla()
+    {
+        Name = "Tesla";
+    }
+}
+
+public class Volvo : Cargo
+{
+    public Volvo()
+    {
+        Name = "Volvo";
+    }
+}
+public class Man : Cargo
+{
+    public Man()
+    {
+        Name = "Man";
+    }
+}
+
+public class Scania : Cargo
+{
+    public Scania()
+    {
+        Name = "Scania";
+    }
+}
+
+public class Abrams : Tank
+{
+    public Abrams()
+    {
+        Name = "Abrams";
+    }
+}
+
+public class Merkava : Tank
+{
+    public Merkava()
+    {
+        Name = "Merkava";
+    }
+}
+public class Tiger : Tank
+{
+    public Tiger()
+    {
+        Name = "Tiger";
+    }
+}
+
+public interface IVehicleFactory
+{
+    Car CreateAudi();
+    Car CreateHonda();
+    Car CreateTesla();
+}
+
+public interface ICargoFactory
+{
+    Car CreateVolvo();
+    Car CreateMan();
+    Car CreateScania();
+}
+
+public interface ITankFactory
+{
+    Car CreateAbrams();
+    Car CreateMerkava();
+    Car CreateTiger();
+}
+
+public class VehicleFactory : IVehicleFactory
+{
+    public Car CreateAudi() => new Audi();
+    public Car CreateHonda() => new Honda();
+    public Car CreateTesla() => new Tesla();
+}
+
+public class CargoFactory : ICargoFactory
+{
+    public Car CreateVolvo() => new Volvo();
+    public Car CreateMan() => new Man();
+    public Car CreateScania() => new Scania();
+}
+
+public class TankFactory : ITankFactory
+{
+    public Car CreateAbrams() => new Abrams();
+    public Car CreateMerkava() => new Merkava();
+    public Car CreateTiger() => new Tiger();
+}
+
 
