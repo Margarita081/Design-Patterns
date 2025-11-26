@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "C:\\DesighnPattern\\Design-Patterns\\Laba1.01\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E992EE35-7812-4215-A0E2-4CBF6CA3BF38}|Laba1.01.csproj|c:\\desighnpattern\\design-patterns\\laba1.01\\builder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E992EE35-7812-4215-A0E2-4CBF6CA3BF38}|Laba1.01.csproj|solutionrelative:builder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E992EE35-7812-4215-A0E2-4CBF6CA3BF38}|Laba1.01.csproj|c:\\desighnpattern\\design-patterns\\laba1.01\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E992EE35-7812-4215-A0E2-4CBF6CA3BF38}|Laba1.01.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E992EE35-7812-4215-A0E2-4CBF6CA3BF38}|Laba1.01.csproj|c:\\desighnpattern\\design-patterns\\laba1.01\\abstractfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E992EE35-7812-4215-A0E2-4CBF6CA3BF38}|Laba1.01.csproj|solutionrelative:abstractfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E992EE35-7812-4215-A0E2-4CBF6CA3BF38}|Laba1.01.csproj|c:\\desighnpattern\\design-patterns\\laba1.01\\prototype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -15,16 +23,8 @@
       "RelativeMoniker": "D:0:0:{E992EE35-7812-4215-A0E2-4CBF6CA3BF38}|Laba1.01.csproj|solutionrelative:car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E992EE35-7812-4215-A0E2-4CBF6CA3BF38}|Laba1.01.csproj|c:\\desighnpattern\\design-patterns\\laba1.01\\abstractfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E992EE35-7812-4215-A0E2-4CBF6CA3BF38}|Laba1.01.csproj|solutionrelative:abstractfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E992EE35-7812-4215-A0E2-4CBF6CA3BF38}|Laba1.01.csproj|c:\\desighnpattern\\design-patterns\\laba1.01\\singleton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E992EE35-7812-4215-A0E2-4CBF6CA3BF38}|Laba1.01.csproj|solutionrelative:singleton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E992EE35-7812-4215-A0E2-4CBF6CA3BF38}|Laba1.01.csproj|c:\\desighnpattern\\design-patterns\\laba1.01\\builder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E992EE35-7812-4215-A0E2-4CBF6CA3BF38}|Laba1.01.csproj|solutionrelative:builder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Bookmark",
@@ -66,7 +66,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Singleton.cs",
               "DocumentMoniker": "C:\\DesighnPattern\\Design-Patterns\\Laba1.01\\Singleton.cs",
               "RelativeDocumentMoniker": "Singleton.cs",
@@ -78,32 +78,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\DesighnPattern\\Design-Patterns\\Laba1.01\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\DesighnPattern\\Design-Patterns\\Laba1.01\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBsAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-26T16:46:16.574Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "AbstractFactory.cs",
               "DocumentMoniker": "C:\\DesighnPattern\\Design-Patterns\\Laba1.01\\AbstractFactory.cs",
               "RelativeDocumentMoniker": "AbstractFactory.cs",
               "ToolTip": "C:\\DesighnPattern\\Design-Patterns\\Laba1.01\\AbstractFactory.cs",
               "RelativeToolTip": "AbstractFactory.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADoAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-26T16:46:12.311Z"
+              "WhenOpened": "2025-10-26T16:46:12.311Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Prototype.cs",
               "DocumentMoniker": "C:\\DesighnPattern\\Design-Patterns\\Laba1.01\\Prototype.cs",
               "RelativeDocumentMoniker": "Prototype.cs",
@@ -111,24 +112,24 @@
               "RelativeToolTip": "Prototype.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-26T18:46:36.241Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-26T18:46:36.241Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "Builder.cs",
               "DocumentMoniker": "C:\\DesighnPattern\\Design-Patterns\\Laba1.01\\Builder.cs",
               "RelativeDocumentMoniker": "Builder.cs",
               "ToolTip": "C:\\DesighnPattern\\Design-Patterns\\Laba1.01\\Builder.cs",
               "RelativeToolTip": "Builder.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAA4AAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAzwB4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-26T16:46:14.082Z"
+              "WhenOpened": "2025-10-26T16:46:14.082Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Car.cs",
               "DocumentMoniker": "C:\\DesighnPattern\\Design-Patterns\\Laba1.01\\Car.cs",
               "RelativeDocumentMoniker": "Car.cs",
@@ -136,8 +137,7 @@
               "RelativeToolTip": "Car.cs",
               "ViewState": "AgIAALYAAAAAAAAAAAA+wNYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-26T16:50:59.033Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-26T16:50:59.033Z"
             }
           ]
         },

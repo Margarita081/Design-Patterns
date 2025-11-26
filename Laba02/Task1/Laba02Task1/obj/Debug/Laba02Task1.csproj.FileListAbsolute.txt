@@ -1,0 +1,7 @@
+C:\DesighnPattern\Design-Patterns\Laba02\Task1\Laba02Task1\bin\Debug\Laba02Task1.exe.config
+C:\DesighnPattern\Design-Patterns\Laba02\Task1\Laba02Task1\bin\Debug\Laba02Task1.exe
+C:\DesighnPattern\Design-Patterns\Laba02\Task1\Laba02Task1\bin\Debug\Laba02Task1.pdb
+C:\DesighnPattern\Design-Patterns\Laba02\Task1\Laba02Task1\obj\Debug\Laba02Task1.csproj.AssemblyReference.cache
+C:\DesighnPattern\Design-Patterns\Laba02\Task1\Laba02Task1\obj\Debug\Laba02Task1.csproj.CoreCompileInputs.cache
+C:\DesighnPattern\Design-Patterns\Laba02\Task1\Laba02Task1\obj\Debug\Laba02Task1.exe
+C:\DesighnPattern\Design-Patterns\Laba02\Task1\Laba02Task1\obj\Debug\Laba02Task1.pdb
