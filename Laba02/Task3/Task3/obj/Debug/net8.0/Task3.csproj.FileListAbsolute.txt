@@ -1,0 +1,15 @@
+C:\DesighnPattern\Design-Patterns\Laba02\Task3\Task3\bin\Debug\net8.0\Task3.exe
+C:\DesighnPattern\Design-Patterns\Laba02\Task3\Task3\bin\Debug\net8.0\Task3.deps.json
+C:\DesighnPattern\Design-Patterns\Laba02\Task3\Task3\bin\Debug\net8.0\Task3.runtimeconfig.json
+C:\DesighnPattern\Design-Patterns\Laba02\Task3\Task3\bin\Debug\net8.0\Task3.dll
+C:\DesighnPattern\Design-Patterns\Laba02\Task3\Task3\bin\Debug\net8.0\Task3.pdb
+C:\DesighnPattern\Design-Patterns\Laba02\Task3\Task3\obj\Debug\net8.0\Task3.GeneratedMSBuildEditorConfig.editorconfig
+C:\DesighnPattern\Design-Patterns\Laba02\Task3\Task3\obj\Debug\net8.0\Task3.AssemblyInfoInputs.cache
+C:\DesighnPattern\Design-Patterns\Laba02\Task3\Task3\obj\Debug\net8.0\Task3.AssemblyInfo.cs
+C:\DesighnPattern\Design-Patterns\Laba02\Task3\Task3\obj\Debug\net8.0\Task3.csproj.CoreCompileInputs.cache
+C:\DesighnPattern\Design-Patterns\Laba02\Task3\Task3\obj\Debug\net8.0\Task3.sourcelink.json
+C:\DesighnPattern\Design-Patterns\Laba02\Task3\Task3\obj\Debug\net8.0\Task3.dll
+C:\DesighnPattern\Design-Patterns\Laba02\Task3\Task3\obj\Debug\net8.0\refint\Task3.dll
+C:\DesighnPattern\Design-Patterns\Laba02\Task3\Task3\obj\Debug\net8.0\Task3.pdb
+C:\DesighnPattern\Design-Patterns\Laba02\Task3\Task3\obj\Debug\net8.0\Task3.genruntimeconfig.cache
+C:\DesighnPattern\Design-Patterns\Laba02\Task3\Task3\obj\Debug\net8.0\ref\Task3.dll
