@@ -1,8 +1,9 @@
-﻿namespace Task2.My_Controller
+﻿using Microsoft.OpenApi.Models;
+namespace Task2.My_Controller
 {
     public class ApiClientFlex
     {
-        private API_Controller _controller = new API_Controller();
+        private APIController _controller = new APIController();
 
         public void FlaxiOperation()
         {

@@ -1,59 +1,90 @@
-﻿
+﻿using Microsoft.OpenApi.Models;
+using Microsoft.AspNetCore.Mvc;
+
 namespace Task2.My_Controller
 {
-    public class API_Controller
+    [ApiController]
+    [Route("[controller]")]
+    public class APIController : ControllerBase
     {
-        public SomeEntity Create(SomeEntity entity) { return entity; }
-        public SomeEntity Update(SomeEntity entity) { return entity; }
-        public SomeEntity GetOne(int id) { return new SomeEntity(); }
-        public List<SomeEntity> GetMany() { return new List<SomeEntity>(); }
-        public List<SomeEntity> GetByFilter() { return new List<SomeEntity>(); }
-        public SomeEntity Delete(int id) { return new SomeEntity(); }
-        public List<SomeEntity> DeleteMany() { return new List<SomeEntity>(); }
-        public SomeEntity Print(int id) { return new SomeEntity(); }
-        public List<SomeEntity> PrintMany() { return new List<SomeEntity>(); }
-        public SomeEntity SetStatus(int id, string status) { return new SomeEntity(); }
-        public SomeEntity Deactivate(int id) { return new SomeEntity(); }
-        public SomeEntity Activate(int id) { return new SomeEntity(); }
+        public static Storage Storage { get; set; } = new Storage();
 
-        internal object? Create()
+        [HttpPost]
+        public SomeEntity Create(SomeEntity entity)
         {
-            throw new NotImplementedException();
+            return entity;
         }
 
-        internal object? Update()
+        [HttpPut("{id}")]
+        public SomeEntity Update(Guid id, SomeEntity entity)
         {
-            throw new NotImplementedException();
+            return entity;
         }
 
-        internal object? Delete()
+        [HttpGet("{id}")]
+        public SomeEntity GetOne(Guid id)
         {
-            throw new NotImplementedException();
+            return new SomeEntity
+            {
+                Id = id,
+                Name = "Test",
+                Description = "Test",
+                Status = "Active",
+            };
         }
 
-        internal object? GetOne()
+        [HttpGet]
+        public List<SomeEntity> GetMany()
         {
-            throw new NotImplementedException();
+            return new List<SomeEntity>();
         }
 
-        internal object? Print()
+        [HttpGet("filter")]
+        public List<SomeEntity> GetByFilter()
         {
-            throw new NotImplementedException();
+            return new List<SomeEntity>();
         }
 
-        internal object? SetStatus()
+        [HttpDelete("{id}")]
+        public SomeEntity Delete(Guid id)
         {
-            throw new NotImplementedException();
+            return new SomeEntity { Id = id };
         }
 
-        internal object? Deactivate()
+        [HttpPost("deletemany")]
+        public List<SomeEntity> DeleteMany(List<Guid> ids)
         {
-            throw new NotImplementedException();
+            return new List<SomeEntity>();
         }
 
-        internal object? Activate()
+        [HttpGet("{id}/print")]
+        public SomeEntity Print(Guid id)
         {
-            throw new NotImplementedException();
+            return new SomeEntity { Id = id, Name = "Print test" };
+        }
+
+        [HttpPost("printmany")]
+        public List<SomeEntity> PrintMany(List<Guid> ids)
+        {
+            return new List<SomeEntity>();
+        }
+
+        [HttpPut("{id}/status")]
+        public SomeEntity SetStatus(Guid id, string status)
+        {
+            return new SomeEntity { Id = id, Status = status };
+        }
+
+        [HttpPost("{id}/feactivate")]
+        public SomeEntity Deactivate(Guid id)
+        {
+            return new SomeEntity { Id = id, Status = "Inactive" };
+        }
+
+        [HttpPost("{id}/activate")]
+        public SomeEntity Activate(Guid id)
+        {
+            return new SomeEntity { Id = id, Status = "Active" };
         }
     }
 }

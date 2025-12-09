@@ -2,7 +2,7 @@
 {
     public class CrudApiClient
     {
-        private API_Controller _controller = new API_Controller();
+        private APIController _controller = new APIController();
 
         public void CrudOperation()
         {

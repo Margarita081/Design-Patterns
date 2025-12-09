@@ -1,18 +1,25 @@
-﻿namespace Task2.My_Controller
+﻿using Microsoft.AspNetCore.Mvc;
+
+namespace Task2.My_Controller
 {
-    public class Api_SomeImage
+    [Route("[controller]")]
+    [ApiController]
+    public class Api_SomeImageController : ControllerBase
     {
-        private API_Controller controller = new API_Controller();
+        private APIController controller = new APIController();
+        [HttpGet]
         public SomeImageEntity GetImage(int id)
         {
-            controller.GetOne(id);
+            controller.GetOne();
             return new SomeImageEntity();
         }
+        [HttpGet]
         public SomeImageEntity SetImage(SomeImageEntity Image_entity)
         {
             controller.Update();
             return Image_entity;
         }
+        [HttpGet]
         public List<SomeImageEntity> GetEntitiesByFilter(string filter)
         {
             controller.GetByFilter();
