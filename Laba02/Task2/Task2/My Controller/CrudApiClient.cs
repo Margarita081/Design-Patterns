@@ -1,15 +1,19 @@
-﻿namespace Task2.My_Controller
+﻿using System;
+using System.Collections.Generic;
+
+namespace Task2.My_Controller
 {
     public class CrudApiClient
     {
-        private APIController _controller = new APIController();
+        private APITestController _controller = new APITestController();
 
         public void CrudOperation()
         {
-            Console.WriteLine(_controller.Create());
-            Console.WriteLine(_controller.Update());
-            Console.WriteLine(_controller.Delete());
-            Console.WriteLine(_controller.GetOne());
+            var entity = new SomeEntity { Name = "Test" };
+            Console.WriteLine($"Create: {_controller.Create(entity).Name}");
+            Console.WriteLine($"Update: {_controller.Update(1, entity).Name}");
+            Console.WriteLine($"Delete: {_controller.Delete(1).Id}");
+            Console.WriteLine($"GetOne: {_controller.GetOne(1).Name}");
         }
     }
 }
