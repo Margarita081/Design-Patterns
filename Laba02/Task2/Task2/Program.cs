@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using System;
 using Task2.My_Controller;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -29,3 +30,8 @@ app.Run();
 
 new CrudApiClient().CrudOperation();
 new ApiClientFlex().FlaxiOperation();
+
+class Programm
+{
+
+}
