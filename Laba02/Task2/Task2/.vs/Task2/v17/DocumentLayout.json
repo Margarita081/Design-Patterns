@@ -3,36 +3,36 @@
   "WorkspaceRootPath": "C:\\DesighnPattern\\Design-Patterns\\Laba02\\Task2\\Task2\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{CB76F5A8-E413-4D4D-80A9-9D19E95E6626}|Task2.csproj|c:\\desighnpattern\\design-patterns\\laba02\\task2\\task2\\my controller\\apitestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB76F5A8-E413-4D4D-80A9-9D19E95E6626}|Task2.csproj|solutionrelative:my controller\\apitestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{CB76F5A8-E413-4D4D-80A9-9D19E95E6626}|Task2.csproj|c:\\desighnpattern\\design-patterns\\laba02\\task2\\task2\\my controller\\someentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CB76F5A8-E413-4D4D-80A9-9D19E95E6626}|Task2.csproj|solutionrelative:my controller\\someentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CB76F5A8-E413-4D4D-80A9-9D19E95E6626}|Task2.csproj|c:\\desighnpattern\\design-patterns\\laba02\\task2\\task2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB76F5A8-E413-4D4D-80A9-9D19E95E6626}|Task2.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CB76F5A8-E413-4D4D-80A9-9D19E95E6626}|Task2.csproj|c:\\desighnpattern\\design-patterns\\laba02\\task2\\task2\\my controller\\apiclientflex.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB76F5A8-E413-4D4D-80A9-9D19E95E6626}|Task2.csproj|solutionrelative:my controller\\apiclientflex.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CB76F5A8-E413-4D4D-80A9-9D19E95E6626}|Task2.csproj|c:\\desighnpattern\\design-patterns\\laba02\\task2\\task2\\my controller\\api_someimagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB76F5A8-E413-4D4D-80A9-9D19E95E6626}|Task2.csproj|solutionrelative:my controller\\api_someimagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CB76F5A8-E413-4D4D-80A9-9D19E95E6626}|Task2.csproj|c:\\desighnpattern\\design-patterns\\laba02\\task2\\task2\\my controller\\crudapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB76F5A8-E413-4D4D-80A9-9D19E95E6626}|Task2.csproj|solutionrelative:my controller\\crudapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CB76F5A8-E413-4D4D-80A9-9D19E95E6626}|Task2.csproj|c:\\desighnpattern\\design-patterns\\laba02\\task2\\task2\\my controller\\storage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CB76F5A8-E413-4D4D-80A9-9D19E95E6626}|Task2.csproj|solutionrelative:my controller\\storage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{CB76F5A8-E413-4D4D-80A9-9D19E95E6626}|Task2.csproj|c:\\desighnpattern\\design-patterns\\laba02\\task2\\task2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB76F5A8-E413-4D4D-80A9-9D19E95E6626}|Task2.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{CB76F5A8-E413-4D4D-80A9-9D19E95E6626}|Task2.csproj|c:\\desighnpattern\\design-patterns\\laba02\\task2\\task2\\my controller\\someimageentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CB76F5A8-E413-4D4D-80A9-9D19E95E6626}|Task2.csproj|solutionrelative:my controller\\someimageentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CB76F5A8-E413-4D4D-80A9-9D19E95E6626}|Task2.csproj|c:\\desighnpattern\\design-patterns\\laba02\\task2\\task2\\my controller\\apitestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB76F5A8-E413-4D4D-80A9-9D19E95E6626}|Task2.csproj|solutionrelative:my controller\\apitestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CB76F5A8-E413-4D4D-80A9-9D19E95E6626}|Task2.csproj|c:\\desighnpattern\\design-patterns\\laba02\\task2\\task2\\my controller\\api_someimagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB76F5A8-E413-4D4D-80A9-9D19E95E6626}|Task2.csproj|solutionrelative:my controller\\api_someimagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CB76F5A8-E413-4D4D-80A9-9D19E95E6626}|Task2.csproj|c:\\desighnpattern\\design-patterns\\laba02\\task2\\task2\\my controller\\crudapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB76F5A8-E413-4D4D-80A9-9D19E95E6626}|Task2.csproj|solutionrelative:my controller\\crudapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CB76F5A8-E413-4D4D-80A9-9D19E95E6626}|Task2.csproj|c:\\desighnpattern\\design-patterns\\laba02\\task2\\task2\\my controller\\apiclientflex.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB76F5A8-E413-4D4D-80A9-9D19E95E6626}|Task2.csproj|solutionrelative:my controller\\apiclientflex.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -65,10 +65,6 @@
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
-            },
-            {
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "SomeImageEntity.cs",
@@ -83,7 +79,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "Api_SomeImageController.cs",
               "DocumentMoniker": "C:\\DesighnPattern\\Design-Patterns\\Laba02\\Task2\\Task2\\My Controller\\Api_SomeImageController.cs",
               "RelativeDocumentMoniker": "My Controller\\Api_SomeImageController.cs",
@@ -96,7 +92,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "ApiClientFlex.cs",
               "DocumentMoniker": "C:\\DesighnPattern\\Design-Patterns\\Laba02\\Task2\\Task2\\My Controller\\ApiClientFlex.cs",
               "RelativeDocumentMoniker": "My Controller\\ApiClientFlex.cs",
@@ -109,46 +105,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "SomeEntity.cs",
               "DocumentMoniker": "C:\\DesighnPattern\\Design-Patterns\\Laba02\\Task2\\Task2\\My Controller\\SomeEntity.cs",
               "RelativeDocumentMoniker": "My Controller\\SomeEntity.cs",
               "ToolTip": "C:\\DesighnPattern\\Design-Patterns\\Laba02\\Task2\\Task2\\My Controller\\SomeEntity.cs",
               "RelativeToolTip": "My Controller\\SomeEntity.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA4AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-11T06:49:48.96Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 2,
               "Title": "CrudApiClient.cs",
               "DocumentMoniker": "C:\\DesighnPattern\\Design-Patterns\\Laba02\\Task2\\Task2\\My Controller\\CrudApiClient.cs",
               "RelativeDocumentMoniker": "My Controller\\CrudApiClient.cs",
               "ToolTip": "C:\\DesighnPattern\\Design-Patterns\\Laba02\\Task2\\Task2\\My Controller\\CrudApiClient.cs",
               "RelativeToolTip": "My Controller\\CrudApiClient.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-11T06:42:19.555Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "APITestController.cs",
               "DocumentMoniker": "C:\\DesighnPattern\\Design-Patterns\\Laba02\\Task2\\Task2\\My Controller\\APITestController.cs",
               "RelativeDocumentMoniker": "My Controller\\APITestController.cs",
               "ToolTip": "C:\\DesighnPattern\\Design-Patterns\\Laba02\\Task2\\Task2\\My Controller\\APITestController.cs",
               "RelativeToolTip": "My Controller\\APITestController.cs",
-              "ViewState": "AgIAAEoAAAAAAAAAAAA0wFkAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAIwAYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-09T21:51:06.484Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "Storage.cs",
               "DocumentMoniker": "C:\\DesighnPattern\\Design-Patterns\\Laba02\\Task2\\Task2\\My Controller\\Storage.cs",
               "RelativeDocumentMoniker": "My Controller\\Storage.cs",
@@ -161,13 +157,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\DesighnPattern\\Design-Patterns\\Laba02\\Task2\\Task2\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\DesighnPattern\\Design-Patterns\\Laba02\\Task2\\Task2\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAABwAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-03T21:19:02.822Z",
               "EditorCaption": ""

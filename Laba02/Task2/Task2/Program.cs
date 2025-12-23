@@ -27,11 +27,3 @@ app.UseAuthorization();
 app.MapControllers();
 
 app.Run();
-
-new CrudApiClient().CrudOperation();
-new ApiClientFlex().FlaxiOperation();
-
-class Programm
-{
-
-}
