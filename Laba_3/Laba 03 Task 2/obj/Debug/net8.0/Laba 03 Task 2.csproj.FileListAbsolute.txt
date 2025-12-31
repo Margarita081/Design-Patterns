@@ -1,0 +1,15 @@
+C:\DesighnPattern\Design-Patterns\Laba_3\Laba 03 Task 2\bin\Debug\net8.0\Laba 03 Task 2.exe
+C:\DesighnPattern\Design-Patterns\Laba_3\Laba 03 Task 2\bin\Debug\net8.0\Laba 03 Task 2.deps.json
+C:\DesighnPattern\Design-Patterns\Laba_3\Laba 03 Task 2\bin\Debug\net8.0\Laba 03 Task 2.runtimeconfig.json
+C:\DesighnPattern\Design-Patterns\Laba_3\Laba 03 Task 2\bin\Debug\net8.0\Laba 03 Task 2.dll
+C:\DesighnPattern\Design-Patterns\Laba_3\Laba 03 Task 2\bin\Debug\net8.0\Laba 03 Task 2.pdb
+C:\DesighnPattern\Design-Patterns\Laba_3\Laba 03 Task 2\obj\Debug\net8.0\Laba 03 Task 2.GeneratedMSBuildEditorConfig.editorconfig
+C:\DesighnPattern\Design-Patterns\Laba_3\Laba 03 Task 2\obj\Debug\net8.0\Laba 03 Task 2.AssemblyInfoInputs.cache
+C:\DesighnPattern\Design-Patterns\Laba_3\Laba 03 Task 2\obj\Debug\net8.0\Laba 03 Task 2.AssemblyInfo.cs
+C:\DesighnPattern\Design-Patterns\Laba_3\Laba 03 Task 2\obj\Debug\net8.0\Laba 03 Task 2.csproj.CoreCompileInputs.cache
+C:\DesighnPattern\Design-Patterns\Laba_3\Laba 03 Task 2\obj\Debug\net8.0\Laba 03 Task 2.sourcelink.json
+C:\DesighnPattern\Design-Patterns\Laba_3\Laba 03 Task 2\obj\Debug\net8.0\Laba 03 Task 2.dll
+C:\DesighnPattern\Design-Patterns\Laba_3\Laba 03 Task 2\obj\Debug\net8.0\refint\Laba 03 Task 2.dll
+C:\DesighnPattern\Design-Patterns\Laba_3\Laba 03 Task 2\obj\Debug\net8.0\Laba 03 Task 2.pdb
+C:\DesighnPattern\Design-Patterns\Laba_3\Laba 03 Task 2\obj\Debug\net8.0\Laba 03 Task 2.genruntimeconfig.cache
+C:\DesighnPattern\Design-Patterns\Laba_3\Laba 03 Task 2\obj\Debug\net8.0\ref\Laba 03 Task 2.dll

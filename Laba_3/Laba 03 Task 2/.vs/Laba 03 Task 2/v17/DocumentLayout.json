@@ -1,0 +1,84 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\DesighnPattern\\Design-Patterns\\Laba_3\\Laba 03 Task 2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9820844E-25B3-423B-BFA1-5C9A769AC2C6}|Laba 03 Task 2.csproj|c:\\desighnpattern\\design-patterns\\laba_3\\laba 03 task 2\\task_2\\iterator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9820844E-25B3-423B-BFA1-5C9A769AC2C6}|Laba 03 Task 2.csproj|solutionrelative:task_2\\iterator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9820844E-25B3-423B-BFA1-5C9A769AC2C6}|Laba 03 Task 2.csproj|c:\\desighnpattern\\design-patterns\\laba_3\\laba 03 task 2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9820844E-25B3-423B-BFA1-5C9A769AC2C6}|Laba 03 Task 2.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Iterator.cs",
+              "DocumentMoniker": "C:\\DesighnPattern\\Design-Patterns\\Laba_3\\Laba 03 Task 2\\Task_2\\Iterator.cs",
+              "RelativeDocumentMoniker": "Task_2\\Iterator.cs",
+              "ToolTip": "C:\\DesighnPattern\\Design-Patterns\\Laba_3\\Laba 03 Task 2\\Task_2\\Iterator.cs",
+              "RelativeToolTip": "Task_2\\Iterator.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAcwAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-31T10:38:11.591Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\DesighnPattern\\Design-Patterns\\Laba_3\\Laba 03 Task 2\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\DesighnPattern\\Design-Patterns\\Laba_3\\Laba 03 Task 2\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAQwFEAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-25T13:12:08.018Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 63,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
