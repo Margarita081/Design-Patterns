@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\DesighnPattern\\Design-Patterns\\Laba02\\Task3\\Task3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A7CE4B25-1A5A-4D18-9A95-15655AE9DA8F}|Task3.csproj|c:\\desighnpattern\\design-patterns\\laba02\\task3\\task3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A7CE4B25-1A5A-4D18-9A95-15655AE9DA8F}|Task3.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A7CE4B25-1A5A-4D18-9A95-15655AE9DA8F}|Task3.csproj|c:\\desighnpattern\\design-patterns\\laba02\\task3\\task3\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A7CE4B25-1A5A-4D18-9A95-15655AE9DA8F}|Task3.csproj|solutionrelative:book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7CE4B25-1A5A-4D18-9A95-15655AE9DA8F}|Task3.csproj|c:\\desighnpattern\\design-patterns\\laba02\\task3\\task3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7CE4B25-1A5A-4D18-9A95-15655AE9DA8F}|Task3.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -37,16 +37,8 @@
               "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Book.cs",
               "DocumentMoniker": "C:\\DesighnPattern\\Design-Patterns\\Laba02\\Task3\\Task3\\Book.cs",
               "RelativeDocumentMoniker": "Book.cs",
@@ -59,7 +51,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\DesighnPattern\\Design-Patterns\\Laba02\\Task3\\Task3\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
