@@ -7,11 +7,11 @@
       "RelativeMoniker": "D:0:0:{5E77FDAF-E058-4978-95C6-5E93D4E4768D}|Laba03_Task03.version01.csproj|solutionrelative:car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5E77FDAF-E058-4978-95C6-5E93D4E4768D}|Laba03_Task03.version01.csproj|c:\\desighnpattern\\design-patterns\\laba_3\\laba03_task03.version01\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5E77FDAF-E058-4978-95C6-5E93D4E4768D}|Laba03_Task03.version01.csproj|C:\\DesighnPattern\\Design-Patterns\\Laba_3\\Laba03_Task03.version01\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5E77FDAF-E058-4978-95C6-5E93D4E4768D}|Laba03_Task03.version01.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5E77FDAF-E058-4978-95C6-5E93D4E4768D}|Laba03_Task03.version01.csproj|c:\\desighnpattern\\design-patterns\\laba_3\\laba03_task03.version01\\container.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5E77FDAF-E058-4978-95C6-5E93D4E4768D}|Laba03_Task03.version01.csproj|C:\\DesighnPattern\\Design-Patterns\\Laba_3\\Laba03_Task03.version01\\container.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5E77FDAF-E058-4978-95C6-5E93D4E4768D}|Laba03_Task03.version01.csproj|solutionrelative:container.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -48,7 +48,7 @@
               "RelativeDocumentMoniker": "Container.cs",
               "ToolTip": "C:\\DesighnPattern\\Design-Patterns\\Laba_3\\Laba03_Task03.version01\\Container.cs",
               "RelativeToolTip": "Container.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABKAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAABKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-09T11:41:40.624Z",
               "EditorCaption": ""
@@ -61,7 +61,7 @@
               "RelativeDocumentMoniker": "Car.cs",
               "ToolTip": "C:\\DesighnPattern\\Design-Patterns\\Laba_3\\Laba03_Task03.version01\\Car.cs",
               "RelativeToolTip": "Car.cs",
-              "ViewState": "AgIAAOIAAAAAAAAAAAAuwPgAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-09T11:41:22.762Z",
               "EditorCaption": ""
@@ -74,7 +74,7 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\DesighnPattern\\Design-Patterns\\Laba_3\\Laba03_Task03.version01\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAgwBgAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAgwBgAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-09T11:25:52.521Z",
               "EditorCaption": ""
