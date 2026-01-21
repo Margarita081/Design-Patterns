@@ -1,0 +1,7 @@
+C:\DesighnPattern\Design-Patterns\Laba_4\Laba04_task1\bin\Debug\Laba04_task1.exe.config
+C:\DesighnPattern\Design-Patterns\Laba_4\Laba04_task1\bin\Debug\Laba04_task1.exe
+C:\DesighnPattern\Design-Patterns\Laba_4\Laba04_task1\bin\Debug\Laba04_task1.pdb
+C:\DesighnPattern\Design-Patterns\Laba_4\Laba04_task1\obj\Debug\Laba04_task1.csproj.AssemblyReference.cache
+C:\DesighnPattern\Design-Patterns\Laba_4\Laba04_task1\obj\Debug\Laba04_task1.csproj.CoreCompileInputs.cache
+C:\DesighnPattern\Design-Patterns\Laba_4\Laba04_task1\obj\Debug\Laba04_task1.exe
+C:\DesighnPattern\Design-Patterns\Laba_4\Laba04_task1\obj\Debug\Laba04_task1.pdb
